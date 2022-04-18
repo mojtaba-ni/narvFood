@@ -1,0 +1,42 @@
+@font-face {
+    font-family: IranSons;
+    src: url('../../image/A-Iranian-Sans/Iranian\ Sans.ttf');
+}
+
+.menu_title{
+    padding: 0 2px;
+    color: blanchedalmond;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'IranSons' !important
+}
+    
+.menu{
+    padding: 4rem 0;
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1140px){
+    .menu_title{
+        padding: 0 2px;
+        color: blanchedalmond;
+        font-size: 14px;
+        font-weight: 600;
+        font-family: 'IranSons' !important
+    }
+}
