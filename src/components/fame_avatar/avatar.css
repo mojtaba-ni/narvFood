@@ -1,0 +1,59 @@
+.fame-avatar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 45px;
+    padding-top: 1rem;
+    width: 100%
+    
+}
+.fame-avatar-card {
+    padding: 1.6rem 3rem;
+    background-color: rgba(187, 97, 45, 0.89);
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 1px 3px 9px 3px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 1px 3px 9px 3px rgba(0,0,0,0);
+    transition: 0.4s ease-in-out;
+}
+.fame-avatar-card:hover{
+    transform: scale(1.1);
+}
+
+.avatar_header{
+    padding: 7px 0;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+}
+.avatar_body{
+    text-align: center;
+    padding: 2px 0;
+    color: rgb(24, 15, 15);
+    cursor: pointer;
+}
+.avatar{
+    cursor: pointer;
+    background: rgba(212, 91, 21, 0.938);
+}
+
+@media(min-width:100px) and (max-width:430px){
+    .fame-avatar-card {
+        padding: .3rem .2rem;
+        background-color: rgba(187, 97, 45, 0.89);
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 10px 13px -7px #000000, 1px 3px 9px 3px rgba(0,0,0,0); 
+        box-shadow: 0px 10px 13px -7px #000000, 1px 3px 9px 3px rgba(0,0,0,0);
+        transition: 0.4s ease-in-out;
+    }
+}
+@media(min-width:430px) and (max-width:650px){
+    .fame-avatar-card {
+        padding: 1rem 1rem;
+        background-color: rgba(187, 97, 45, 0.89);
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 10px 13px -7px #000000, 1px 3px 9px 3px rgba(0,0,0,0); 
+        box-shadow: 0px 10px 13px -7px #000000, 1px 3px 9px 3px rgba(0,0,0,0);
+        transition: 0.4s ease-in-out;
+    }
+}
