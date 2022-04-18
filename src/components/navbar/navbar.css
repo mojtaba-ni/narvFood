@@ -1,0 +1,128 @@
+
+.navbar{
+    padding: 8px 0;
+    direction: rtl;
+    display: flex;  
+}
+
+.container{
+    width: 100%;
+    max-height: 2rem;
+    background-color: rgba(8, 8, 8, 0.979);
+    display: flex;
+    padding: 1rem 4rem;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.navbar_logo img{
+    object-fit: contain;
+    position: absolute;
+    left: 45%;
+    top: 10px;
+    width: 10rem;
+}
+.theright{
+    display: flex;
+}
+.theleft{
+    display: flex;
+    align-items: center;
+}
+.theleft Input{
+    border: none;
+}
+.button-login Button{
+    background-color: rgba(27, 22, 22, 0.904);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-log svg{
+    color: rgb(187, 106, 30);
+}
+
+
+.button-logg{
+    padding: 0 2.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.button-logg div{
+    padding: 0 .3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.button-log div{
+    color: rgb(187, 106, 30);
+    font-weight: 600;
+}
+
+.button-logg .button-search{
+    display: none;
+}
+.button-sign .sign-span{
+    color: white;
+}
+.button-logg Button{
+    background-color: rgba(27, 22, 22, 0.904);
+}
+.button-logg Button:hover{
+    background-color: rgba(202, 106, 17, 0.479);
+}
+
+.button-search svg{
+    color: white;
+}
+.log-title{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.ham{
+   display: none;
+
+}
+@media screen and (max-width:1200px){
+    
+    
+    .ham{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+    }
+    .ham:hover{
+        transform: scale(1.4);
+    }
+    .theright{
+        display: none;
+    }
+
+
+    .navbar_logo img{
+        object-fit: contain;
+        position: absolute;
+        left: 14px;
+        top: 14px;
+        width:4.4rem;
+    }
+    .navbar_logo img:hover{
+        transform: none;
+    }
+    .button-logg{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    .button-logg .button-search{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+   
+}
