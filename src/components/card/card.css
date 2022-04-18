@@ -1,0 +1,18 @@
+
+.whole-card{
+    padding: 10px 35px;
+    font-family: 'IranSons' !important;
+   
+}
+.card_header{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid;
+    border-bottom:1px solid ;
+    padding: 4px 0;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.card_header:hover{
+    background-color: rgba(224, 119, 21, 0.932);
+}
