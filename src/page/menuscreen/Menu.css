@@ -1,0 +1,14 @@
+.menu{
+    
+    background-color: rgba(17, 16, 16, 0.952);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.menu_display{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ 
+}

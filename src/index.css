@@ -1,0 +1,28 @@
+@font-face {
+  font-family: IranSons;
+  src: url('./image/A-Iranian-Sans/Iranian\ Sans.ttf');
+}
+body {
+  margin: 0;
+  font-family: 'IranSons' !important;
+  overflow-x: hidden;
+  background-color: rgba(17, 16, 16, 0.952);
+}
+
+code {
+  font-family: 'IranSons' !important
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-track{
+  background: rgba(17, 16, 16, 0.952);
+  
+}
+
+::-webkit-scrollbar-thumb{
+  background: rgba(221, 104, 26, 0.87);
+  border-radius: 50px;
+}
