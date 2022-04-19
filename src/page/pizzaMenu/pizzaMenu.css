@@ -1,0 +1,10 @@
+.pizza_menu{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+    
+}
+.pizza_menu div{
+    padding: 1rem 1rem;
+
+}
