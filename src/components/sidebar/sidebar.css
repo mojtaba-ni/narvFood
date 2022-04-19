@@ -1,0 +1,86 @@
+.sidebar-backdrop{
+    display: none;
+}
+.sidebar{
+    background-color: rgba(27, 22, 22, 0.904);
+    position: fixed;
+    top: 70px;
+    height: 100%;
+    right: 0;
+    width: 14rem;
+    z-index: 1000;
+    box-shadow: rgba(0, 0, 0, 0.87);
+    
+    
+}
+.sidebar-header{
+    text-align: end;
+    padding-top: .6rem;
+}
+.sidebar-header svg:hover{
+    transform: scale(1.1);
+    background-color: #e9e1e12c;
+    border-radius: 100%;
+}
+.sidebar-header svg{
+    color: #e7dcdcea;
+    padding: 9px 15px;
+}
+.sidebar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.navbarr{
+    padding-top: .4rem;
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+}
+.navbarLi a{
+    padding:.4rem 0;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #d4cfcf;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-weight: 600;
+    transition: 0.2s ease-in-out;
+}
+.navbarLi:hover{
+    background-color: #cfcccc33;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
+}
+.navbarLi a:hover{
+    padding-right: 1rem;
+    
+}
+.navbarr a svg{
+    color: rgba(221, 104, 26, 0.87);
+    padding: 12px 0;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.li-conainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.li-conainer h4{
+    color: rgb(18, 18, 92);
+    padding: 0 5px;
+}
+
+@media screen and (max-width:1140px){
+    .sidebar-backdrop{
+        display: block;
+    }
+}
